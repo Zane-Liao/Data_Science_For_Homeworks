@@ -14,5 +14,6 @@ ggplot(stars, aes(x = temp, y = magnitude)) +
   scale_x_reverse(trans = "log10")
 
 # white dwarfs numbers
-# w <- stars %>% filter(grepl("^D", type))
+w <- stars %>% filter(grepl("^D", type))
+
 
