@@ -1,0 +1,263 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+//----------DHTML Menu Created using AllWebMenus PRO ver 5.3-#940---------------
+//C:\Seagate Backup\STEVEO\History\Level3\J\Documents and Settings\Steve\My Documents\stevetheump_menu.awm
+var awmMenuName='menu';
+var awmLibraryBuild=940;
+var awmLibraryPath='/awmdata';
+var awmImagesPath='/awmdata';
+var awmSupported=(navigator.appName + navigator.appVersion.substring(0,1)=="Netscape5" || document.all || document.layers || navigator.userAgent.indexOf('Opera')>-1 || navigator.userAgent.indexOf('Konqueror')>-1)?1:0;
+if (awmSupported){
+var nua=navigator.userAgent,scriptNo=(nua.indexOf('Chrome')>-1||nua.indexOf('Safari')>-1||nua.indexOf('Gecko')>-1||nua.indexOf('Opera')>-1||nua.indexOf('Lumia')>-1||nua.indexOf('WPDesktop')>-1)?2:1;
+var mpi=document.location,xt="";
+var mpa=mpi.protocol+"//"+mpi.host;
+var mpi=mpi.protocol+"//"+mpi.host+mpi.pathname;
+if(scriptNo==1){oBC=document.all.tags("BASE");if(oBC && oBC.length) if(oBC[0].href) mpi=oBC[0].href;}
+while (mpi.search(/\\/)>-1) mpi=mpi.replace("\\","/");
+mpi=mpi.substring(0,mpi.lastIndexOf("/")+1);
+var mpin=mpi;
+var e=document.getElementsByTagName("SCRIPT");
+for (var i=0;i<e.length;i++){if (e[i].src){if (e[i].src.indexOf(awmMenuName+".js")!=-1){xt=e[i].src.split("/");if (xt[xt.length-1]==awmMenuName+".js"){xt=e[i].src.substring(0,e[i].src.length-awmMenuName.length-3);if (e[i].src.indexOf("://")!=-1){mpi=xt;}else{if(xt.substring(0,1)=="/")mpi=mpa+xt; else mpi+=xt;}}}}}
+while (mpi.search(/\/\.\//)>-1) {mpi=mpi.replace("/./","/");}
+var awmMenuPath=mpi.substring(0,mpi.length-1);
+while (awmMenuPath.search("'")>-1) {awmMenuPath=awmMenuPath.replace("'","%27");}
+document.write("<SCRIPT SRC='"+(awmMenuPath+awmLibraryPath).replace(/\/$/,"")+"/awmlib"+scriptNo+".js'><\/SCRIPT>");
+var n=null;
+awmzindex=2;
+}
+
+var awmImageName='';
+var awmPosID='';
+var awmPosClass='';
+var awmSubmenusFrame='';
+var awmSubmenusFrameOffset;
+var awmOptimize=0;
+var awmHash='FPKGNSJJDWFUSILWXKMYVMJAAONO';
+var awmNoMenuPrint=1;
+var awmUseTrs=0;
+document.write('</table>');
+var awmSepr=["0","","",""];
+var awmMarg=[0,0,0,0];
+function awmBuildMenu(){
+if (awmSupported){
+awmImagesColl=[];
+awmCreateCSS(1,2,1,'#800000','#FFFFFF',n,'bold 12px Verdana',n,'outset','1','#000000','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#800000','#FFFFFF',n,'bold 12px Verdana',n,'outset','1','#000000','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(0,1,0,n,'#CDCACA',n,n,n,'solid','1','#190EAC','1px 1px 1px 1',0,'0px / 0px',n);
+awmCreateCSS(1,2,1,'#FFFFFF','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','2px 2px 2px 2',1,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FFFF00','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','1px 1px 1px 1',1,'0px / 0px','rgba(48,48,48,0.25) 3px 3px 2px 1px');
+awmCreateCSS(0,2,1,'#FF0012','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','1px 1px 1px 1',1,'0px / 0px','rgba(48,48,48,0.25) 3px 3px 2px 1px');
+awmCreateCSS(1,2,1,'#FFFFFF','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','2px 2px 2px 2',0,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FFFF00','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','1px 1px 1px 1',0,'0px / 0px','rgba(48,48,48,0.25) 3px 3px 2px 1px');
+awmCreateCSS(0,2,1,'#FF0012','#000084',n,'bold 3mm Verdana, Arial, Helvetica, sans-serif',n,'none','0','#000000','1px 1px 1px 1',0,'0px / 0px','rgba(48,48,48,0.25) 3px 3px 2px 1px');
+awmCreateCSS(0,1,0,n,'#F30B1C',n,n,n,'solid','2','#000084','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(1,2,1,'#FFFFFF','#000084',n,'bold 3mm Arial, Helvetica, sans-serif',n,'none','0','#000000','0px 0px 0px 0',1,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FFFF00','#000084',n,'bold 4mm Arial, Helvetica, sans-serif',n,'none','0','#000000','0px 0px 0px 0',1,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FF0012','#000084',n,'bold 4mm Arial, Helvetica, sans-serif',n,'outset','3','#31659C','0px 0px 0px 0',1,'0px / 0px',n);
+awmCreateCSS(1,2,1,'#FFFFFF','#000084',n,'bold 3mm Arial, Helvetica, sans-serif',n,'none','0','#000000','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FFFF00','#000084',n,'bold 4mm Arial, Helvetica, sans-serif',n,'none','0','#000000','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FF0012','#000084',n,'bold 4mm Arial, Helvetica, sans-serif',n,'outset','3','#31659C','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(0,1,0,n,'#FF0012',n,n,n,'solid','2','#1B4186','0px 0px 0px 0',0,'0px / 0px',n);
+awmCreateCSS(1,2,1,'#FFFFFF','#000084',n,'bold 4mm Arial, Helvetica, sans-serif',n,'none','0','#000000','0px 0px 0px 0',1,'0px / 0px',n);
+awmCreateCSS(0,2,1,'#FF000C','#31659C',n,'bold 4mm Arial, Helvetica, sans-serif',n,'outset','3','#31659C','0px 0px 0px 0',1,'0px / 0px',n);
+var s0=awmCreateMenu(0,0,0,0,1,0,0,0,5,10,10,0,1,2,1,0,1,n,n,100,0,0,10,10,0,-1,1,200,200,0,0,0,"0,0,0",n,n,n,n,n,n,n,n,0,0,0,0,0,0,0,0,1,0,0,1,n,n,'',n,0,[],0,"");
+it=s0.addItem(0,1,1,"  Steve's Menu  ","Steve's Menu","Steve's Menu","","",n,n,n,n,n,0,0,0,0,0,n,n);
+it=s0.addItem(3,4,5," &nbsp;Home &nbsp;"," Home "," Home ","","index.htm",n,n,n,"index.htm",n,0,25,2,0,0,0,n);
+it=s0.addItem(6,7,8," &nbsp;Umpires &nbsp;"," Umpires "," Umpires ","","",n,n,n,n,n,0,25,2,0,0,1,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,10,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;Patches &amp; Logos &nbsp;",n,n,"","ump_patches/index.html",n,n,n,"ump_patches/index.html",n,0,0,2,0,0,8,n);
+it=s1.addItem(10,11,12," &nbsp;Umpiring Timeline &nbsp;",n,n,"","umpiring_timeline.htm",n,n,n,"umpiring_timeline.htm",n,0,0,2,0,0,4,n);
+it=s1.addItem(10,11,12," &nbsp;All-Time ML Umpires &nbsp;",n,n,"","Umps_alltime.htm",n,n,n,"Umps_alltime.htm",n,0,0,2,0,0,6,n);
+it=s1.addItem(10,11,12," &nbsp;All-Time WS Umpires &nbsp;",n,n,"","All_time_WS_umpires.htm",n,n,n,"All_time_WS_umpires.htm",n,0,0,2,0,0,7,n);
+it=s1.addItem(13,14,15," &nbsp;Minor League Umpires &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,3,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,16,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2014-2018 &nbsp;",n,n,"","minor_league_umpires.htm",n,n,n,"minor_league_umpires.htm",n,0,0,2,0,0,143,n);
+it=s2.addItem(17,11,18," &nbsp;2010-2013 &nbsp;",n,n,"","minor_league_umpires_1.htm",n,n,n,"minor_league_umpires_1.htm",n,0,0,2,0,0,116,n);
+it=s2.addItem(17,11,18," &nbsp;2005-2009 &nbsp;",n,n,"","minor_league_umpires_2.htm",n,n,n,"minor_league_umpires_2.htm",n,0,0,2,0,0,117,n);
+it=s2.addItem(17,11,18," &nbsp;1999-2004 &nbsp;",n,n,"","minor_league_umpires_a.htm",n,n,n,"minor_league_umpires_a.htm",n,0,0,2,0,0,118,n);
+it=s1.addItem(10,11,12," &nbsp;MLB Crews / Post-Season Umpires &nbsp;",n,n,"","Proumpires.htm",n,n,n,"Proumpires.htm",n,0,0,2,0,0,2,n);
+it=s1.addItem(13,14,15," &nbsp;MLB Ump Media Guides &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,151,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,20,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2018 &nbsp;",n,n,"","reports/2018_Umpire_Media_Guide.pdf",n,n,n,"reports/2018_Umpire_Media_Guide.pdf",n,0,0,2,0,0,71,n);
+it=s2.addItem(17,11,18," &nbsp;2017 &nbsp;",n,n,"","reports/2017_Umpire_Media_Guide.pdf",n,n,n,"reports/2017_Umpire_Media_Guide.pdf",n,0,0,2,0,0,71,n);
+it=s2.addItem(17,11,18," &nbsp;2016 &nbsp;",n,n,"","reports/2016_Umpire_Media_Guide.pdf",n,n,n,"reports/2016_Umpire_Media_Guide.pdf",n,0,0,2,0,0,147,n);
+it=s2.addItem(17,11,18," &nbsp;2015 &nbsp;",n,n,"","reports/2015_Umpire_Media_Guide.pdf",n,n,n,"reports/2015_Umpire_Media_Guide.pdf",n,0,0,2,0,0,157,n);
+it=s2.addItem(17,11,18," &nbsp;2014 &nbsp;",n,n,"","reports/2014_Umpire_Media_Guide.pdf",n,n,n,"reports/2014_Umpire_Media_Guide.pdf",n,0,0,2,0,0,158,n);
+it=s1.addItem(10,11,12," &nbsp;Uniform &amp; Equipment Care &nbsp;",n,n,"","equipment_care.htm",n,n,n,"equipment_care.htm",n,0,0,2,0,0,5,n);
+it=s1.addItem(10,11,12," &nbsp;Ten Worst Calls &nbsp;",n,n,"","tenworstcalls.htm",n,n,n,"tenworstcalls.htm",n,0,0,2,0,0,154,n);
+it=s1.addItem(10,11,12," &nbsp;Umpire Heckles &nbsp;",n,n,"","umpire_heckels.htm",n,n,n,"umpire_heckels.htm",n,0,0,2,0,0,9,n);
+it=s0.addItem(6,7,8," &nbsp;Rules &nbsp;"," Rules "," Rules ","","",n,n,n,n,n,0,25,2,0,0,10,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,9,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;Rule Books &nbsp;",n,n,"","rule_books.htm",n,n,n,"rule_books.htm",n,0,0,2,0,0,142,n);
+it=s1.addItem(10,11,12," &nbsp;Rule Myths &nbsp;",n,n,"","rules_myths.htm",n,n,n,"rules_myths.htm",n,0,0,2,0,0,13,n);
+it=s1.addItem(10,11,12," &nbsp;BBCOR &nbsp;",n,n,"","BBCOR.htm",n,n,n,"BBCOR.htm",n,0,0,2,0,0,46,n);
+it=s1.addItem(10,11,12," &nbsp;NFHS Bat Rules &nbsp;",n,n,"","NFHSbatrules.htm",n,n,n,"NFHSbatrules.htm",n,0,0,2,0,0,12,n);
+it=s1.addItem(13,14,15," &nbsp;MLB Rules Changes &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,155,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,21,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2018 &nbsp;",n,n,"","2018_rule_changes.htm",n,n,n,"2018_rule_changes.htm",n,0,0,2,0,0,152,n);
+it=s2.addItem(17,11,18," &nbsp;2017 &nbsp;",n,n,"","2017_rule_changes.htm",n,n,n,"2017_rule_changes.htm",n,0,0,2,0,0,152,n);
+it=s2.addItem(17,11,18," &nbsp;2016 &nbsp;",n,n,"","2016_rule_changes.htm",n,n,n,"2016_rule_changes.htm",n,0,0,2,0,0,161,n);
+it=s2.addItem(17,11,18," &nbsp;2015 &nbsp;",n,n,"","2015_rule_changes.htm",n,n,n,"2015_rule_changes.htm",n,0,0,2,0,0,162,n);
+it=s2.addItem(17,11,18," &nbsp;2014 &nbsp;",n,n,"","rule_7.13.htm",n,n,n,"rule_7.13.htm",n,0,0,2,0,0,163,n);
+it=s1.addItem(13,14,15," &nbsp;NFHS Rule Revisions &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,11,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,19,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2007-2018 &nbsp;",n,n,"","NFHS_rules.htm",n,n,n,"NFHS_rules.htm",n,0,0,2,0,0,128,n);
+it=s2.addItem(17,11,18," &nbsp;1999-2006 &nbsp;",n,n,"","NFHS_rules_b.htm",n,n,n,"NFHS_rules_b.htm",n,0,0,2,0,0,129,n);
+it=s1.addItem(13,14,15," &nbsp;Baseball Field Layout &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,14,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,2,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;Field Layout &nbsp;",n,n,"","field_layout.htm",n,n,n,"field_layout.htm",n,0,0,2,0,0,89,n);
+it=s2.addItem(17,11,18," &nbsp;Additional Field Specs &nbsp;",n,n,"","field_layout_links.htm",n,n,n,"field_layout_links.htm",n,0,0,2,0,0,90,n);
+it=s1.addItem(10,11,12," &nbsp;Questions of the Month &nbsp;",n,n,"","previous_questions.htm",n,n,n,"previous_questions.htm",n,0,0,2,0,0,22,n);
+it=s1.addItem(13,14,15," &nbsp;Rules Question Answers &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,18,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,12,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;Current Answers &nbsp;",n,n,"","Answers_rules.htm",n,n,n,"Answers_rules.htm",n,0,0,2,0,0,15,n);
+it=s2.addItem(17,11,18," &nbsp;Additional Rules Answers &nbsp;",n,n,"","Rules_Answers.htm",n,n,n,"Rules_Answers.htm",n,0,0,2,0,0,101,n);
+it=s1.addItem(10,11,12," &nbsp;Ask a Rules Question &nbsp;",n,n,"","Ask_Steve.htm",n,n,n,"Ask_Steve.htm",n,0,0,2,0,0,20,n);
+it=s1.addItem(10,11,12," &nbsp;NFHS / Pro Rules Differences &nbsp;",n,n,"","nfhs_pro_rules_dif.htm",n,n,n,"nfhs_pro_rules_dif.htm",n,0,0,2,0,0,16,n);
+it=s1.addItem(10,11,12," &nbsp;NCAA Umpire / Rules Info &nbsp;",n,n,"","ncaa_bats.htm",n,n,n,"ncaa_bats.htm",n,0,0,2,0,0,21,n);
+it=s0.addItem(6,7,8," &nbsp;Mechanics &nbsp;"," Mechanics "," Mechanics ","","",n,n,n,n,n,0,25,2,0,0,75,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,6,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;Changing Calls &nbsp;",n,n,"","changing_calls.htm",n,n,n,"changing_calls.htm",n,0,0,2,0,0,130,n);
+it=s1.addItem(10,11,12," &nbsp;Baseball Physics &nbsp;",n,n,"","HR_physics.htm",n,n,n,"HR_physics.htm",n,0,0,2,0,0,76,n);
+it=s1.addItem(10,11,12," &nbsp;The Infield Fly Rule &nbsp;",n,n,"","infield_fly.htm",n,n,n,"infield_fly.htm",n,0,0,2,0,0,77,n);
+it=s1.addItem(13,14,15," &nbsp;Steve&#39;s Umpiring Tips &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,78,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,15,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;Steve&#39;s Tips &nbsp;",n,n,"","umpire_tips.htm",n,n,n,"umpire_tips.htm",n,0,0,2,0,0,32,n);
+it=s2.addItem(17,11,18," &nbsp;Additional Tips &nbsp;",n,n,"","umpire_tips_2.htm",n,n,n,"umpire_tips_2.htm",n,0,0,2,0,0,114,n);
+it=s1.addItem(10,11,12," &nbsp;Properly Scoring Runs &nbsp;",n,n,"","scoring_runs.htm",n,n,n,"scoring_runs.htm",n,0,0,2,0,0,132,n);
+it=s1.addItem(10,11,12," &nbsp;Umpire Communication &nbsp;",n,n,"","umpire_communication.htm",n,n,n,"umpire_communication.htm",n,0,0,2,0,0,80,n);
+it=s1.addItem(10,11,12," &nbsp;Umpire Professionalism &nbsp;",n,n,"","umpire_professionalism.htm",n,n,n,"umpire_professionalism.htm",n,0,0,2,0,0,79,n);
+it=s1.addItem(10,11,12," &nbsp;Writing Ejection Reports &nbsp;",n,n,"","report_writing.htm",n,n,n,"report_writing.htm",n,0,0,2,0,0,123,n);
+it=s1.addItem(10,11,12," &nbsp;Umpire Evaluation &nbsp;",n,n,"","Evaluation_form.htm",n,n,n,"Evaluation_form.htm",n,0,0,2,0,0,81,n);
+it=s0.addItem(6,7,8," &nbsp;History &nbsp;"," History "," History ","","",n,n,n,n,n,0,25,2,0,0,23,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,11,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;History of the Bat &nbsp;",n,n,"","Bat_History.htm",n,n,n,"Bat_History.htm",n,0,0,2,0,0,25,n);
+it=s1.addItem(10,11,12," &nbsp;Umpiring History &nbsp;",n,n,"","umpiring_history.htm",n,n,n,"umpiring_history.htm",n,0,0,2,0,0,24,n);
+it=s1.addItem(10,11,12," &nbsp;MLB&#39;s Luxury Tax &nbsp;",n,n,"","luxury_tax.htm",n,n,n,"luxury_tax.htm",n,0,0,2,0,0,52,n);
+it=s1.addItem(10,11,12," &nbsp;All-Star Game History &nbsp;",n,n,"","alll_star_game_history.htm",n,n,n,"alll_star_game_history.htm",n,0,0,2,0,0,26,n);
+it=s1.addItem(10,11,12," &nbsp;MLB Work Stoppages &nbsp;",n,n,"","baseball_stoppages.htm",n,n,n,"baseball_stoppages.htm",n,0,0,2,0,0,30,n);
+it=s1.addItem(10,11,12," &nbsp;World Baseball Classic &nbsp;",n,n,"","world_classic.htm",n,n,n,"world_classic.htm",n,0,0,2,0,0,28,n);
+it=s1.addItem(10,11,12," &nbsp;Evolution of the Strike &nbsp;",n,n,"","strike_history.htm",n,n,n,"strike_history.htm",n,0,0,2,0,0,27,n);
+it=s1.addItem(10,11,12," &nbsp;Baseball&#39;s Worst Hitters &nbsp;",n,n,"","worst_list.htm",n,n,n,"worst_list.htm",n,0,0,2,0,0,29,n);
+it=s1.addItem(10,11,12," &nbsp;History of Interleague Play &nbsp;",n,n,"","interleague.htm",n,n,n,"interleague.htm",n,0,0,2,0,0,141,n);
+it=s1.addItem(10,11,12," &nbsp;All Decade Teams 1876 - 2010 &nbsp;",n,n,"","all_decade_teams.htm",n,n,n,"all_decade_teams.htm",n,0,0,2,0,0,121,n);
+it=s1.addItem(10,11,12," &nbsp;Top Pitching Staffs All-Time &nbsp;",n,n,"","greatest_pitching.htm",n,n,n,"greatest_pitching.htm",n,0,0,2,0,0,33,n);
+it=s1.addItem(13,14,15," &nbsp;Top Players / Teams All-Time &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,31,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,14,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;Top 100 Players / Best Teams &nbsp;",n,n,"","top_players.htm",n,n,n,"top_players.htm",n,0,0,2,0,0,19,n);
+it=s2.addItem(17,11,18," &nbsp;Top Players by Position &nbsp;",n,n,"","top_players_b.htm",n,n,n,"top_players_b.htm",n,0,0,2,0,0,113,n);
+it=s1.addItem(10,11,12," &nbsp;Top 500 Players of All-Time &nbsp;",n,n,"","top_500_players.htm",n,n,n,"top_500_players.htm",n,0,0,2,0,0,160,n);
+it=s1.addItem(10,11,12," &nbsp;Top Post Season Games All-Time &nbsp;",n,n,"","top_postseason.htm",n,n,n,"top_postseason.htm",n,0,0,2,0,0,34,n);
+it=s1.addItem(10,11,12," &nbsp;Top Minor League Teams All-Time &nbsp;"," &nbsp;Top 100 Minor League Teams All-Time &nbsp;"," &nbsp;Top 100 Minor League Teams All-Time &nbsp;","","top_minorleague_teams.htm",n,n,n,"top_minorleague_teams.htm",n,0,0,2,0,0,35,n);
+it=s1.addItem(10,11,12," &nbsp;All-Century Team / Greatest Moments &nbsp;",n,n,"","Allcenturyteam.htm",n,n,n,"Allcenturyteam.htm",n,0,0,2,0,0,36,n);
+it=s0.addItem(6,7,8," &nbsp;Players &nbsp;"," Players "," Players ","","",n,n,n,n,n,0,25,2,0,0,37,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,4,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(13,14,15," &nbsp;MLB Millionaires &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,41,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,3,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2017 &nbsp;",n,n,"","2017_millionaires.htm",n,n,n,"2017_millionaires.htm",n,0,0,2,0,0,17,n);
+it=s2.addItem(17,11,18," &nbsp;2016 &nbsp;",n,n,"","2016_millionaires.htm",n,n,n,"2016_millionaires.htm",n,0,0,2,0,0,156,n);
+it=s2.addItem(17,11,18," &nbsp;2015 &nbsp;",n,n,"","2015_millionaires.htm",n,n,n,"2015_millionaires.htm",n,0,0,2,0,0,150,n);
+it=s2.addItem(17,11,18," &nbsp;2014 &nbsp;",n,n,"","2014_millionaires.htm",n,n,n,"2014_millionaires.htm",n,0,0,2,0,0,145,n);
+it=s2.addItem(17,11,18," &nbsp;2013 &nbsp;",n,n,"","2013_millionaires.htm",n,n,n,"2013_millionaires.htm",n,0,0,2,0,0,138,n);
+it=s2.addItem(17,11,18," &nbsp;2012 &nbsp;",n,n,"","2012_millionaires.htm",n,n,n,"2012_millionaires.htm",n,0,0,2,0,0,135,n);
+it=s2.addItem(17,11,18," &nbsp;2011 &nbsp;",n,n,"","2011_millionaires.htm",n,n,n,"2011_millionaires.htm",n,0,0,2,0,0,131,n);
+it=s2.addItem(17,11,18," &nbsp;2010 &nbsp;",n,n,"","2010_millionaires.htm",n,n,n,"2010_millionaires.htm",n,0,0,2,0,0,115,n);
+it=s2.addItem(17,11,18," &nbsp;2009 &nbsp;",n,n,"","2009_millionaires.htm",n,n,n,"2009_millionaires.htm",n,0,0,2,0,0,91,n);
+it=s2.addItem(17,11,18," &nbsp;2008 &nbsp;",n,n,"","2008_millionaires.htm",n,n,n,"2008_millionaires.htm",n,0,0,2,0,0,92,n);
+it=s2.addItem(17,11,18," &nbsp;2007 &nbsp;",n,n,"","2007_millionaires.htm",n,n,n,"2007_millionaires.htm",n,0,0,2,0,0,93,n);
+it=s2.addItem(17,11,18," &nbsp;2006 &nbsp;",n,n,"","2006_millionaires.htm",n,n,n,"2006_millionaires.htm",n,0,0,2,0,0,94,n);
+it=s2.addItem(17,11,18," &nbsp;2005 &nbsp;",n,n,"","2005_millionaires.htm",n,n,n,"2005_millionaires.htm",n,0,0,2,0,0,95,n);
+it=s2.addItem(17,11,18," &nbsp;2004 &nbsp;",n,n,"","2004_millionaires.htm",n,n,n,"2004_millionaires.htm",n,0,0,2,0,0,96,n);
+it=s2.addItem(17,11,18," &nbsp;2003 &nbsp;",n,n,"","2003_millionaires.htm",n,n,n,"2003_millionaires.htm",n,0,0,2,0,0,97,n);
+it=s2.addItem(17,11,18," &nbsp;2001 &nbsp;",n,n,"","2001_millionaires.htm",n,n,n,"2001_millionaires.htm",n,0,0,2,0,0,98,n);
+it=s2.addItem(17,11,18," &nbsp;2000 &nbsp;",n,n,"","2000_millionaires.htm",n,n,n,"2000_millionaires.htm",n,0,0,2,0,0,99,n);
+it=s2.addItem(17,11,18," &nbsp;1999 &nbsp;",n,n,"","1999_milllionaires.htm",n,n,n,"1999_milllionaires.htm",n,0,0,2,0,0,100,n);
+it=s1.addItem(10,11,12," &nbsp;Opening Day Payrolls 1999-2018 &nbsp;",n,n,"","Payrolls.htm",n,n,n,"Payrolls.htm",n,0,0,2,0,0,39,n);
+it=s1.addItem(10,11,12," &nbsp;Top 25 Player Salaries 1999-2018 &nbsp;",n,n,"","Millionaires.htm",n,n,n,"Millionaires.htm",n,0,0,2,0,0,40,n);
+it=s1.addItem(13,14,15," &nbsp;Draft Picks &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,42,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,17,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2010-2018 &nbsp;",n,n,"","draft_picks.htm",n,n,n,"draft_picks.htm",n,0,0,2,0,0,119,n);
+it=s2.addItem(17,11,18," &nbsp;2000-2009 &nbsp;",n,n,"","draft_picks_a.htm",n,n,n,"draft_picks_a.htm",n,0,0,2,0,0,120,n);
+it=s1.addItem(13,14,15," &nbsp;Free Agents &nbsp;",n,n,"","",n,n,n,n,n,0,0,2,0,0,38,n);
+var s2=it.addSubmenu(0,0,0,0,0,0,0,16,0,1,0,n,n,100,0,18,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s2.addItem(17,11,18," &nbsp;2013-2018 &nbsp;",n,n,"","freeagents.htm",n,n,n,"freeagents.htm",n,0,0,2,0,0,124,n);
+it=s2.addItem(17,11,18," &nbsp;2009 - 2012 &nbsp;",n,n,"","freeagents_a.htm",n,n,n,"freeagents_a.htm",n,0,0,2,0,0,62,n);
+it=s2.addItem(17,11,18," &nbsp;2001 - 2008 &nbsp;",n,n,"","freeagents_b.htm",n,n,n,"freeagents_b.htm",n,0,0,2,0,0,125,n);
+it=s1.addItem(10,11,12," &nbsp;Strange Injuries &nbsp;",n,n,"","strange_injuries.htm",n,n,n,"strange_injuries.htm",n,0,0,2,0,0,43,n);
+it=s1.addItem(10,11,12," &nbsp;Nicknames &amp; Lingo &nbsp;",n,n,"","Nicknames.htm",n,n,n,"Nicknames.htm",n,0,0,2,0,0,44,n);
+it=s1.addItem(10,11,12," &nbsp;Rookies of the Year &nbsp;",n,n,"","rookies_of_year.htm",n,n,n,"rookies_of_year.htm",n,0,0,2,0,0,45,n);
+it=s1.addItem(10,11,12," &nbsp;Arbitration 2007-2016 &nbsp;",n,n,"","arbitration_figures.htm",n,n,n,"arbitration_figures.htm",n,0,0,2,0,0,127,n);
+it=s1.addItem(10,11,12," &nbsp;Best Season by Position/Team &nbsp;",n,n,"","best_season_by_team.htm",n,n,n,"best_season_by_team.htm",n,0,0,2,0,0,102,n);
+it=s0.addItem(6,7,8," &nbsp;Awards/Leaders &nbsp;"," Awards/Leaders "," Awards/Leaders ","","",n,n,n,n,n,0,25,2,0,0,59,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,7,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;MVP Winners &nbsp;",n,n,"","mvp_award.htm",n,n,n,"mvp_award.htm",n,0,0,2,0,0,126,n);
+it=s1.addItem(10,11,12," &nbsp;Cooperstown Pictures &nbsp;",n,n,"","Hall_pictures.htm",n,n,n,"Hall_pictures.htm",n,0,0,2,0,0,60,n);
+it=s1.addItem(10,11,12," &nbsp;WS Champs / Final Standings &nbsp;",n,n,"","final_ML_standings.htm",n,n,n,"final_ML_standings.htm",n,0,0,2,0,0,63,n);
+it=s1.addItem(10,11,12," &nbsp;Minor League Teams / Champs &nbsp;",n,n,"","minor_league_teams.htm",n,n,n,"minor_league_teams.htm",n,0,0,2,0,0,64,n);
+it=s1.addItem(10,11,12," &nbsp;Cy Young Winners / 300 Wins List &nbsp;",n,n,"","cy_young_winnners.htm",n,n,n,"cy_young_winnners.htm",n,0,0,2,0,0,61,n);
+it=s1.addItem(10,11,12," &nbsp;All-Time Pitching &amp; Batting Leaders &nbsp;",n,n,"","CareerLeaders.htm",n,n,n,"CareerLeaders.htm",n,0,0,2,0,0,65,n);
+it=s0.addItem(6,7,8," &nbsp;General &nbsp;"," General "," General ","","",n,n,n,n,n,0,25,2,0,0,47,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,5,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;Mets Citi Field &nbsp;",n,n,"","cit_field/index.html",n,n,n,"cit_field/index.html",n,0,0,2,0,0,49,n);
+it=s1.addItem(10,11,12," &nbsp;Yankee Stadium &nbsp;",n,n,"","yankee_stadium/index.html",n,n,n,"yankee_stadium/index.html",n,0,0,2,0,0,48,n);
+it=s1.addItem(10,11,12," &nbsp;Major League Logos &nbsp;",n,n,"","majorlogos.htm",n,n,n,"majorlogos.htm",n,0,0,2,0,0,50,n);
+it=s1.addItem(10,11,12," &nbsp;Minor League Logos &nbsp;",n,n,"","minorlogos.htm",n,n,n,"minorlogos.htm",n,0,0,2,0,0,51,n);
+it=s1.addItem(10,11,12," &nbsp;Ticket Stubs Gallery &nbsp;",n,n,"","TicketStubsGallary/index.html",n,n,n,"TicketStubsGallary/index.html",n,0,0,2,0,0,53,n);
+it=s1.addItem(10,11,12," &nbsp;Baseball Card Gallery &nbsp;",n,n,"","cards/index.html",n,n,n,"cards/index.html",n,0,0,2,0,0,54,n);
+it=s1.addItem(10,11,12," &nbsp;Steve&#39;s Picture Gallery &nbsp;",n,n,"","pictures/index.html",n,n,n,"pictures/index.html",n,0,0,2,0,0,55,n);
+it=s1.addItem(10,11,12," &nbsp;Strange Baseball Events &nbsp;",n,n,"","strange_events.htm",n,n,n,"strange_events.htm",n,0,0,2,0,0,56,n);
+it=s1.addItem(10,11,12," &nbsp;Baseball News Archives &nbsp;",n,n,"","baseball_news.htm",n,n,n,"baseball_news.htm",n,0,0,2,0,0,57,n);
+it=s1.addItem(10,11,12," &nbsp;ML &amp; International Team Info &nbsp;",n,n,"","MLteamaddresses.htm",n,n,n,"MLteamaddresses.htm",n,0,0,2,0,0,58,n);
+it=s0.addItem(6,7,8," &nbsp;Quotes &nbsp;"," Quotes "," Quotes ","","",n,n,n,n,n,0,25,2,0,0,82,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,8,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;The Mick &nbsp;"," &nbsp;The Mick&#39;s Qoutes &nbsp;"," &nbsp;The Mick&#39;s Qoutes &nbsp;","","themick.htm",n,n,n,"themick.htm",n,0,0,2,0,0,83,n);
+it=s1.addItem(10,11,12," &nbsp;Yogisms &nbsp;",n,n,"","yogisms.htm",n,n,n,"yogisms.htm",n,0,0,2,0,0,84,n);
+it=s1.addItem(10,11,12," &nbsp;Earl&#39;s Pearls &nbsp;"," &nbsp;Earl Weaver Quotes &nbsp;"," &nbsp;Earl Weaver Quotes &nbsp;","","earls_pearls.htm",n,n,n,"earls_pearls.htm",n,0,0,2,0,0,85,n);
+it=s1.addItem(10,11,12," &nbsp;Billy&#39;s Gems &nbsp;"," &nbsp;Billy Martin Gems &nbsp;"," &nbsp;Billy Martin&#39;s Gems &nbsp;","","billys_quotes.htm",n,n,n,"billys_quotes.htm",n,0,0,2,0,0,134,n);
+it=s1.addItem(10,11,12," &nbsp;Leo&#39;s Quotes &nbsp;"," &nbsp;Leo Durocher Quotes &nbsp;"," &nbsp;Leo Durocher Quotes &nbsp;","","leos_quotes.htm",n,n,n,"leos_quotes.htm",n,0,0,2,0,0,87,n);
+it=s1.addItem(10,11,12," &nbsp;Casey&#39;s Phrases &nbsp;",n,n,"","casey.htm",n,n,n,"casey.htm",n,0,0,2,0,0,86,n);
+it=s1.addItem(10,11,12," &nbsp;Lee Elia&#39;s 1983 Rant &nbsp;",n,n,"","lee_elia.htm",n,n,n,"lee_elia.htm",n,0,0,2,0,0,88,n);
+it=s0.addItem(6,7,8," &nbsp;Site Links &nbsp;"," Site Links "," Site Links ","","",n,n,n,n,n,0,25,2,0,0,66,n);
+var s1=it.addSubmenu(0,0,0,0,0,0,0,9,0,1,0,n,n,100,0,1,0,-1,1,200,200,0,0,"0,0,0",0,"0",1,0,"");
+it=s1.addItem(10,11,12," &nbsp;Site Map &nbsp;",n,n,"","sitemap.htm",n,n,n,"sitemap.htm",n,0,0,2,0,0,67,n);
+it=s1.addItem(10,11,12," &nbsp;Facebook &nbsp;",n,n,"","https://web.archive.org/web/20181109124743/http://www.facebook.com/StevetheUmp",n,n,n,"https://web.archive.org/web/20181109124743/http://www.facebook.com/StevetheUmp","new",0,0,2,0,0,137,n);
+it=s1.addItem(10,11,12," &nbsp;Donations &nbsp;",n,n,"","donate.htm",n,n,n,"donate.htm",n,0,0,2,0,0,136,n);
+it=s1.addItem(10,11,12," &nbsp;Advertising &nbsp;",n,n,"","Advertising_Rates.htm",n,n,n,"Advertising_Rates.htm",n,0,0,2,0,0,68,n);
+it=s1.addItem(10,11,12," &nbsp;Contact Info &nbsp;",n,n,"","contactinfo.htm",n,n,n,"contactinfo.htm",n,0,0,2,0,0,70,n);
+it=s1.addItem(10,11,12," &nbsp;Discussion Page &nbsp;",n,n,"","https://web.archive.org/web/20181109124743/http://pub4.bravenet.com/forum/329076056/",n,n,n,"https://web.archive.org/web/20181109124743/http://pub4.bravenet.com/forum/329076056/",n,0,0,2,0,0,69,n);
+it=s1.addItem(10,11,12," &nbsp;Privacy Policy &nbsp;",n,n,"","privacypolicy.htm",n,n,n,"privacypolicy.htm",n,0,0,2,0,0,72,n);
+it=s1.addItem(10,11,12," &nbsp;Legal Notices &nbsp;",n,n,"","Legalnotices.htm",n,n,n,"Legalnotices.htm",n,0,0,2,0,0,73,n);
+s0.pm.buildMenu();
+}}
+
+}
+/*
+     FILE ARCHIVED ON 12:47:43 Nov 09, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:50:05 Jul 21, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 2.637
+  exclusion.robots: 0.036
+  exclusion.robots.policy: 0.02
+  esindex: 0.012
+  cdx.remote: 16.652
+  LoadShardBlock: 118.374 (3)
+  PetaboxLoader3.datanode: 44.772 (4)
+  PetaboxLoader3.resolve: 208.512 (2)
+  load_resource: 174.159
+*/
